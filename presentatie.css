@@ -3,26 +3,27 @@ body {
 }
 
 header {
-    background-image: url("https://www.r2online.nl/wp-content/uploads/2015/03/311-Rotterdam-Kop-van-Zuid-03.jpg");
+    background-image: url("zuidskyline.jpg");
     height: 400px;
     background-position: 0%;
     background-repeat: no-repeat;
     margin: 0.5em;
     margin-bottom: 1em;
+    border-bottom: 7px lightgrey solid;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .titel {
     margin-bottom: 2em;
 }
 
-
 .divdoos {
     background-color: lightgrey;
-    margin: 0.5em;
 }
 
 .img1 {
-    width: 70%;
+    width: 100%;
 }
 .doos {
    align-self: auto;
