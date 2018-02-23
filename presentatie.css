@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-image: url("https://www.r2online.nl/wp-content/uploads/2015/03/311-Rotterdam-Kop-van-Zuid-03.jpg");
+    height: 400px;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    margin: 0.5em;
+    margin-bottom: 1em;
+}
+
+.titel {
+    margin-bottom: 2em;
+}
+
+
+.divdoos {
+    background-color: lightgrey;
+    margin: 0.5em;
+}
