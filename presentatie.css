@@ -31,3 +31,11 @@ header {
 .doos {
    align-self: auto;
 }
+
+p {
+    padding: 2px;
+}
+
+h3 {
+    padding: 1px;
+}
