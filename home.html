@@ -4,120 +4,88 @@
         <meta charset="utf-8">
         <title>Home</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="presentatie.css"></link>
-        <script>
-            function show(shown, hidden) {
-              document.getElementById(shown).style.display='block';
-              document.getElementById(hidden).style.display='none';
-              return false;
-            }
-        </script>
     </head>
     <body>
         <header class="img-responsive">
             <h1 class="text-center titel">Huizen van de toekomst</h1>
-        </header>            
-
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Inleiding</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Page2">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Disabled</a>
-            </li>
-          </ul>
-
-          <div id="Page1">
-
-                <div class="container"> 
-                    <div class="row">
-                        <div class="col-md-4 divdoos"> 
-                            <h3>Eisen</h3>
-                            <p>test</p>
+        </header>   
+        <div class="container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Inleiding</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Eisen</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Ontwerp</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="einde-tab" data-toggle="tab" href="#einde" role="tab" aria-controls="einde" aria-selected="false">Einde</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="container"> 
+                        <div class="row">
+                            <div class="col-md-8 divdoos"> 
+                                <h3>Inleiding</h3>
+                                <p>dit is de inleiding lalallalalalalalaa pleinbioscoop heet het volgens mij</p>
+                            </div>
+            
+                            <div class="col-md-4">
+                                <img class="img-responsive img-thumbnail img1" src="layout.jpeg" title="relevant plaatje">
+                            </div>
                         </div>
-        
-                        <div class="col-md-4 divdoos"> 
-                            <h3>Advies</h3>
-                            <p>test</p>
-                        </div>
-        
-                        <div class="col-md-4 divdoos"> 
-                            <h3>Inspiratie</h3>
-                            <p>test</p>
-                        </div>
-                        
                     </div>
                 </div>
-
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <div class="container"> 
-                            <div class="row">
-                                <div class="col-md-8 divdoos"> 
-                                    <h3>Inleiding</h3>
-                                    <p>dit is de inleiding lalallalalalalalaa pleinbioscoop heet het volgens mij</p>
-                                </div>
-                
-                                <div class="col-md-4">
-                                    <img class="img-responsive img-thumbnail img1" src="layout.jpeg" title="relevant plaatje">
-                                </div>
+                        <div class="row">
+                            <div class="col-md-4 divdoos"> 
+                                <h3>Eisen</h3>
+                                <p>test</p>
+                            </div>
+            
+                            <div class="col-md-4 divdoos"> 
+                                <h3>Advies</h3>
+                                <p>test</p>
+                            </div>
+            
+                            <div class="col-md-4 divdoos"> 
+                                <h3>Inspiratie</h3>
+                                <p>test</p>
                             </div>
                         </div>
-            <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
-            </div>
-        
-            <div id="Page2" style="display:none">
-
-                
-            <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
-            </div>
-
-            <div id="Page2" style="display:none">
-
-                <div class="container"> 
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="container"> 
                         <div class="row">
                             <div class="col-md-8 divdoos"> 
-                                <h3>Inleiding</h3>
-                                <p>dit is de inleiding lalallalalalalalaa pleinbioscoop heet het volgens mij</p>
+                                <h3>test</h3>
+                                <p>test
+                            
                             </div>
             
                             <div class="col-md-4">
                                 <img class="img-responsive img-thumbnail img1" src="layout.jpeg" title="relevant plaatje">
                             </div>
-            
-                            
-                        </div>
-                    </div>
-            <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
-            </div>
-
-            <div id="Page2" style="display:none">
-
-                <div class="container"> 
-                        <div class="row">
-                            <div class="col-md-8 divdoos"> 
-                                <h3>Inleiding</h3>
-                                <p>dit is de inleiding lalallalalalalalaa pleinbioscoop heet het volgens mij</p>
-                            </div>
-            
-                            <div class="col-md-4">
-                                <img class="img-responsive img-thumbnail img1" src="layout.jpeg" title="relevant plaatje">
-                            </div>
-            
-                            
-                        </div>
-                    </div>
-            <a href="#" onclick="return show('Page1','Page2');">Show page 1</a>
-            </div>
         
-       
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="einde" role="tabpanel" aria-labelledby="contact-tab">test4</div>
+            </div>
+        </div>
 
-
-
+        <script src="jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="bootstrap.bundle.min.js"></script>
+        <script>$('.carousel').carousel({
+            interval: 2000
+            })
+        </script>
     </body>
 </html>                         

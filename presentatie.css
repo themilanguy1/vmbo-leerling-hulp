@@ -3,15 +3,15 @@ body {
 }
 
 header {
-    background-image: url("zuidskyline.jpg");
+    background-image: url("skyline1.jpg");
     height: 400px;
     background-position: 0%;
     background-repeat: no-repeat;
     margin: 0.5em;
     margin-bottom: 1em;
-    border-bottom: 7px lightgrey solid;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-bottom: 6px lightblue solid;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 .titel {
@@ -39,3 +39,4 @@ p {
 h3 {
     padding: 1px;
 }
+
