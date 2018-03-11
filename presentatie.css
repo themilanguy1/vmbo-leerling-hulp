@@ -3,6 +3,7 @@
 #bootstrap-override {
     background-color: white;
     font-family: 'Dosis', sans-serif;
+    margin: 0px;
 }
 
 header {
@@ -10,7 +11,7 @@ header {
     height: 400px;
     background-position: 0%;
     background-repeat: no-repeat;
-    margin: 0.5em;
+    margin: 0.3em;
     margin-bottom: 1em;
 }
 
@@ -33,19 +34,11 @@ header {
    align-self: auto;
 }
 
-p {
-    padding: 2px;
-}
-
-h3 {
-    padding: 1px;
-}
-
 .footer {
     display: block;
     margin: 3.5em 0.5em 0.5em 0.5em;
     background-color: rgb(184, 171, 206);
-    padding: 1em;
+    padding: 0.25em;
     font-size: 10px;
     
 }
