@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton|News+Cycle');
+
 
 body {
     background-color: white;
-    font-family: 'News Cycle', sans-serif;
 }
 
 header {
@@ -46,14 +45,13 @@ footer {
     margin: 0.5em;
     background-color: rgb(156, 147, 170);
     padding: 1em;
+    font-size: 0.5em;
 }
 
 .footerright {
     float: right;
 }
 
-@media (min-width: 1024px) {    
-    .container {
-        width: 2000px;
-    } 
-}
+#bootstrap-override .container {
+    max-width: 1450px;
+} 
