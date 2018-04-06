@@ -1,0 +1,16 @@
+<?php
+$kleurcode= 210;
+if ($kleurcode<100)
+{
+    echo "Rood";
+}
+elseif ($kleurcode > 99 and $kleurcode  < 201)
+{
+    echo "Geel";
+}
+else
+{
+    echo "Zwart";
+}
+
+?>

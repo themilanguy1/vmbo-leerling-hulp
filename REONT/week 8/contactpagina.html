@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="stylesheetafspraken.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.ictacademie.info/milangupta/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www.ictacademie.info/milangupta/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.ictacademie.info/milangupta/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.ictacademie.info/milangupta/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.ictacademie.info/milangupta/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.ictacademie.info/milangupta/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.ictacademie.info/milangupta/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.ictacademie.info/milangupta/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.ictacademie.info/milangupta/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://www.ictacademie.info/milangupta/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.ictacademie.info/milangupta/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.ictacademie.info/milangupta/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.ictacademie.info/milangupta/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <nav style="float: left;">
+        <a class="navigatie" href="https://www.ictacademie.info/milangupta/">Home</a>
+        <a class="navigatie" href="https://www.ictacademie.info/milangupta/week9/invoer.php">Planner</a>
+        <a class="navigatie" href="https://www.ictacademie.info/milangupta/week9/contactpagina.html">Contact</a>
+    </nav>
+    <div class="contactdiv">
+        <h1>Contactformulier </h1><br><br>
+        <form action="contactresultaat.php" method="post">
+            <input type="text" name="naam" placeholder="Voor en -achternaam" required><br><br>
+            <input type="radio" name="geslacht" value="Man">Man<br>
+            <input type="radio" name="geslacht" value="Vrouw">Vrouw<br><br>
+            <input id="email" type="email" name="email" placeholder="emailadres" required><br><br>
+            <textarea rows="5" cols="50" name="feedback" placeholder=" Ik hoor graag uw feedback!"></textarea><br><br>
+            <input type="submit" value="Verzenden">
+        </form>
+    </div>
+</body>
+</html>
